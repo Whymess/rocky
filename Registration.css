@@ -4,37 +4,35 @@
 }
 
 .reg_form {
-	top: 200px;
-    margin: 0 auto;
-    position: relative;
-    background: #FFFFFF;
-    border: 7px solid #FFFFFF;
-    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
-    width: 1196px;
-    height: 690px;
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 630px;
+	margin: 0 auto;
 }
-
-.row {
-	padding-left: 70px;
-	margin-top: 51px;
-}
-
-.tellus {
-	padding-left: 70px;
-	font-family: .AppleSystemUIFont;
-	font-size: 16px;
-	color: #56565B;
-	letter-spacing: 0.6px;
-}
-
 
 .label {
+	width: 225px;
+	height: 19px;
 	font-family: .AppleSystemUIFont;
 	font-size: 14px;
 	color: #89898D;
 	letter-spacing: 0;
-	width: 225px;
+}
+
+.Special_label {
+	color: #89898D;
+	letter-spacing: 0;
+	font-size: 14px;
 	height: 19px;
+}
+
+.underline {
+	background: #FFFFFF;
+	border: 1px solid #DAD7D5;
+	border-radius: 6px;
+	width: 480px;
 }
 
 input {
@@ -42,59 +40,55 @@ input {
 	height: 24px;
 	border: none;
 	outline: none;
-	position: relative;
-
 }
 
-#passwordSelection {
-	font-family: .AppleSystemUIFont;
-	font-size: 16px;
-	color: #56565B;
-	letter-spacing: 0.6px;
+.first_name {
+	margin-bottom: 50px;
 }
 
-.underline {
-	background: #FFFFFF;
-	border: 1px solid #DAD7D5;
-	border-radius: 6px;
+.last_Name {
+	margin-bottom: 51px;
 }
 
-.submit {
-	width: 278px;
-	height: 80px;
-	background: #FA5014;
+.employer_Name {
+	margin-bottom: 53px;
+}
+
+.job_title {
+	margin-bottom: 49px;
+}
+
+.employer_Website {
+	margin-bottom: 48px;
+}
+
+.tellus {
+	margin-bottom: 34px;
+	margin-left: 70px;
+}
+
+.col {
+	left: 70px;
 }
 
 .progress_bar {
-	width: 75%;
+	width: 958px;
     height: 80px;
+    background: #56565B;
     position: relative;
-    margin-top: 72px;
-    background-color: #56565B;
+    top: 42px;
 }
 
 .submit {
-	font-size: 18px;
+     background: #FA5014;
+    border-bottom: 76px solid #FA5014;
+    border-left: 100px solid #56565B;
+    position: relative;
+    left: 49em;
+    width: 278px;
+    height: 80px;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 1.2px;
-    border-bottom: 77px solid #FA5014;
-    border-left: 100px solid #56565B;
-    height: 80px;
-    position: relative;
-    left: 100%;
-    bottom: 0px;
-    width: 16em;
 }
-
-.title {
-	font-family: Helvetica;
-    font-size: 42px;
-    color: #56565B;
-    letter-spacing: 1.22px;
-    line-height: 52px;
-    position: relative;
-    left: 4em;
-    top: 3.5em;
-}
-
-
