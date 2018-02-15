@@ -66,4 +66,30 @@ body html {
     bottom: 0;
 }
 
+.agree_label {
+    position: relative;
+    margin-left: 159px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    top: 28px;
+    bottom: 28px;
+    color: white;
+  	}
+
+ .cancel_label {
+
+    position: absolute;
+    color: green;
+    margin-left: 161px;
+    bottom: 26px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+ }
+
+
+
 
