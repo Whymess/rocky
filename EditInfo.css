@@ -50,4 +50,41 @@ input {
 	margin-top: 63px;
 }
 
+.progress_bar {
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+}
 
+.greeting {
+	font-family: Helvetica;
+	font-size: 48px;
+	color: black;
+	letter-spacing: 0;
+	line-height: 52px;
+}
+
+.fill_in {
+	width: 84%;
+    height: 0;
+    border-top: 80px solid #56565B;
+    border-right: 100px solid transparent;
+}
+
+.next {
+    width: 25%;
+    height: 0;
+    border-bottom: 80px solid #FA5014;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 54em;
+    top: 0em;
+}
+
+.font_for_progress_bar {
+	font-family: .SFNSDisplay;
+	font-size: 20px;
+	color: #C9C7C6;
+	letter-spacing: 0;
+}

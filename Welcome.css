@@ -1,128 +1,174 @@
-.main_container {
-	background: #FFFFFF;
-	border: 7px solid #FFFFFF;
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
-	width: 1170px;
-	height: 630px;
-	position: fixed;
-	top: 190px;
-	left: 305px;
+html {
+  box-sizing: border-box;
 }
 
-.greeting {
-	font-family: .SFNSDisplay;
-	font-size: 20px;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.all-container {
+	height: 200px;
+	display: block;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+
+.logo-img {
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+	border: 1px solid yellow;
+}
+
+.main-greet {
+	margin-top: 20px;
+	font-size: 44px;
+	line-height: 52px;
+
 	color: #56565B;
 	letter-spacing: 0;
-	margin-top: 37px;
-	margin-left: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sub-greet {
+	margin-top: 10px
+	font-size: 20px;
+	line-height: 25px;
+	color: #56565B;
+	letter-spacing: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.main-container {
+	position: relative;
+	background: #FFFFFF;
+	
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.10);
+	
+	width: 1170px;
+	height: 630px;
+
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+
+	margin-top: 15px;
+}
+
+.main-text {
+	padding: 0 70px;
+	color: #56565B;
+	letter-spacing: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-msg {
+	padding-top: 22px;
 }
 
 
 .list {
-	margin-top: 62px;
-	margin-left: 70px;
+	margin-top: 22px;
+	padding: 0 60px;
+	width: 100%;
+}
+
+
+.container.item {
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	min-height: 20px;
 }
 
 .image {
-	width: 29px;
-	height: 29px;
-	    top: 5px;
-    position: relative;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	display: inline-block;
 }
 
-.item {
-	margin-top: 26px;
-}
+.item-text {
 
-#one, #two, #three, #four {
-	font-family: .AppleSystemUIFont;
-	font-size: 18px;
+	position: relative;
+	top: -10px;
+	line-height: 20px;
+
 	color: #56565B;
 	letter-spacing: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	width: 950px;
+	display: inline-block;
+
 }
 
-
-.satisfy{
+.satisfy-msg {
 	margin-top: 34px;
-	margin-left: 70px;
-font-family: .AppleSystemUIFont;
-font-size: 18px;
-color: #56565B;
-letter-spacing: 0;
-line-height: 28px;
+	line-height: 28px;
 }
 
-.ready {
-	margin-top: 31px;
-	margin-left: 70px;
+.ready-msg {
+	margin-top: 30px;
 }
 
-.commit {
-    width: 50%;
-    border-bottom: 70px solid #FA5014;
-    border-left: 100px solid transparent;
-    position: absolute;
-    bottom: 0;
-    left: 30.5em;
+
+
+.btn-holder {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	display: block;
 }
 
-#text_within_buttonTwo {
-position: absolute;
-    right: 86px;
-    bottom: 30px;
-    font-family: Helvetica;
-    font-size: 18px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    width: 290.39px;
-    height: 22px;
-  
+
+.btn-master, .btn-not-master {
+	position: absolute;
+	height: 100%;
+	width: 56%;
 }
 
-.subGreet {
 
-font-family: Helvetica;
-font-size: 20px;
-color: #56565B;
-letter-spacing: 0;
-line-height: 28px;
+.btn-not-master {
+	left: 0;
+	border-top: 80px solid #56565B;
+	border-right: 120px solid transparent;
 }
 
-.outside_Greeting {
+
+.btn-master {
+	right: 0;
+	border-bottom: 80px solid #FA5014;
+	border-left: 120px solid transparent;
+}
+
+
+
+.btn-text {
 	font-family: Helvetica;
-	font-size: 48px;
-	color: #56565B;
-	letter-spacing: 1.4px;
-	line-height: 52px;
-	margin-top: 90px;
-	margin-left: 305px;
+	position: absolute;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	z-index: 2;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
 }
 
-
-
-#text_within_button{
-	font-family: Helvetica;
-	 position: absolute;
-    left: 161px;
-    top: 19px;
-    font-size: 18px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    width: 290.39px;
-    height: 22px;
-
+.btn-not-master > .btn-text {
+	top: -45px;
+	left: 0;
 }
 
-  
-
-.dont_commit {
-	 width: 31em;
-    border-top: 70px solid #56565B;
-    border-right: 100px solid transparent;
-    position: absolute;
-    bottom: 0;
-
+.btn-master > .btn-text {
+	top: 35px;
+	left: 0;
 }
-
 
