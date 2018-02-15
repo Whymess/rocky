@@ -33,3 +33,37 @@ body html {
 	letter-spacing: -0.2px;
 	line-height: 27px;
 }
+
+.agree {
+	position: absolute;
+	margin-left: 112px;
+	margin-top: 25px;
+}
+
+.progress_bar {
+    height: 54px;
+    width: 100%;
+    top: 9em;
+    position: relative;
+}
+
+.triangle-topRight {
+          width: 50%;
+    position: absolute;
+    left: 0em;
+    border-top: 54px solid #56565B;
+    border-right: 107px solid transparent;
+    bottom: 0;
+}
+
+
+.triangle-topleft {
+    width: 50%;
+    position: absolute;
+    left: 30em;
+    border-bottom: 54px solid #C9C7C6;
+    border-left: 100px solid transparent;
+    bottom: 0;
+}
+
+
