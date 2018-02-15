@@ -36,7 +36,6 @@
 .progress_bar {
 	height: 54px;
 	width: 100%;
-	border: 1px solid red;
 	bottom: 0;
 	position: absolute;
 }
@@ -72,7 +71,7 @@
     width: 50%;
     position: absolute;
     left: 30em;
-    border-bottom: 80px solid #C9C7C6;
+    border-bottom: 80px solid #FA5014;
     border-left: 100px solid transparent;
     bottom: 0;
 }
@@ -86,6 +85,27 @@
     bottom: 0;
 }
 
+.checkbxinput{
+	background-color: green;
+}
 
+#left_id {
+    color: white;
+    position: absolute;
+    top: 27px;
+    right: 216px;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    letter-spacing: 0
+	
+}
 
-
+#right_id {
+     position: absolute;
+    left: 161px;
+    bottom: 30px;
+    color: white;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    letter-spacing: 0;
+}

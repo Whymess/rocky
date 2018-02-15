@@ -1,0 +1,17 @@
+.main_contianer {
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 564px;
+	position: fixed;
+	top: 200px;
+	left: 305px;
+}
+
+.underline {
+	background: #FFFFFF;
+	border: 1px solid #DAD7D5;
+	border-radius: 6px;
+	width: 480px;
+}
