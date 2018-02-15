@@ -5,7 +5,7 @@
 	width: 1170px;
 	height: 630px;
 	position: fixed;
-	top: 200px;
+	top: 190px;
 	left: 305px;
 }
 
@@ -27,6 +27,8 @@
 .image {
 	width: 29px;
 	height: 29px;
+	    top: 5px;
+    position: relative;
 }
 
 .item {
@@ -66,24 +68,49 @@ line-height: 28px;
 }
 
 #text_within_buttonTwo {
-	  position: absolute;
-    margin-left: 161px;
+position: absolute;
+    right: 86px;
     bottom: 30px;
-font-family: Helvetica;
-font-size: 18px;
-color: #FFFFFF;
-letter-spacing: 0;
-
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 290.39px;
+    height: 22px;
+  
 }
 
-#text_within_button{
-	position: absolute;
-    right: 161px;
-    top: 30px;
-    font-family: Helvetica;
-font-size: 18px;
-color: #FFFFFF;
+.subGreet {
+
+font-family: Helvetica;
+font-size: 20px;
+color: #56565B;
 letter-spacing: 0;
+line-height: 28px;
+}
+
+.outside_Greeting {
+	font-family: Helvetica;
+	font-size: 48px;
+	color: #56565B;
+	letter-spacing: 1.4px;
+	line-height: 52px;
+	margin-top: 90px;
+	margin-left: 305px;
+}
+
+
+
+#text_within_button{
+	font-family: Helvetica;
+	 position: absolute;
+    left: 161px;
+    top: 19px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 290.39px;
+    height: 22px;
 
 }
 
@@ -95,6 +122,7 @@ letter-spacing: 0;
     border-right: 100px solid transparent;
     position: absolute;
     bottom: 0;
+
 }
 
 
