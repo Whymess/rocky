@@ -1,15 +1,37 @@
 .Contianer {
 	position: relative;
 	height: 2000px;
+	border: 1px solid red;
+}
+
+.title {
+    font-size: 42px;
+    color: #56565B;
+    letter-spacing: 1.22px;
+    line-height: 52px;
+    left: 305px;
+    position: fixed;
+    top: 100px;
+}
+
+.next {
+	font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    top: 27px;
+    position: relative;
 }
 
 .reg_form {
-	background: #FFFFFF;
-	border: 7px solid #FFFFFF;
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
-	width: 1170px;
-	height: 630px;
-	margin: 0 auto;
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+    width: 1170px;
+    height: 690px;
+    margin: 0 auto;
+    top: 200px;
+    left: 305px;
+    position: fixed;
 }
 
 .label {
@@ -19,13 +41,7 @@
 	font-size: 14px;
 	color: #89898D;
 	letter-spacing: 0;
-}
-
-.Special_label {
-	color: #89898D;
-	letter-spacing: 0;
-	font-size: 14px;
-	height: 19px;
+	margin: 0;
 }
 
 .underline {
@@ -42,45 +58,70 @@ input {
 	outline: none;
 }
 
-.first_name {
-	margin-bottom: 50px;
-}
-
-.last_Name {
-	margin-bottom: 51px;
-}
-
-.employer_Name {
-	margin-bottom: 53px;
-}
-
-.job_title {
-	margin-bottom: 49px;
-}
-
-.employer_Website {
-	margin-bottom: 48px;
+.Special_label {
+	color: #89898D;
+	letter-spacing: 0;
+	font-size: 14px;
+	height: 19px;
 }
 
 .tellus {
-	margin-bottom: 34px;
+	font-size: 18px;
+	position: relative;
+	margin-top: 53px;
 	margin-left: 70px;
 }
 
-.col {
+.left {
 	left: 70px;
 }
 
+.first_name, .work_email {
+	margin-top: 34px;
+}
+
+.last_Name, .work_Mobile {
+	margin-top: 50px;
+}
+
+.employer_Name, .work_direct {
+	margin-top: 51px;
+}
+
+.job_title {
+	margin-top: 53px;
+}
+
+.passwordSelection {
+	margin-top: 69px;
+}
+
+.employer_Website {
+	margin-top: 49px;
+}
+
+.Password {
+	    margin-top: 49px;
+}
+
+.Street_Address  {
+	margin-top: 48px;
+}
+
+.Repeat {
+	margin-top: 53px;
+}
+
 .progress_bar {
-	width: 958px;
+       background: #56565B;
+    width: 882px;
     height: 80px;
-    background: #56565B;
     position: relative;
-    top: 42px;
+    top: 60px;
 }
 
 .submit {
-     background: #FA5014;
+    background: #FA5014;
     border-bottom: 76px solid #FA5014;
     border-left: 100px solid #56565B;
     position: relative;
@@ -91,4 +132,5 @@ input {
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 1.2px;
+    position: relative;
 }
