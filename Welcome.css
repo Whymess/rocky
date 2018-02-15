@@ -1,0 +1,100 @@
+.main_container {
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 630px;
+	position: fixed;
+	top: 200px;
+	left: 305px;
+}
+
+.greeting {
+	font-family: .SFNSDisplay;
+	font-size: 20px;
+	color: #56565B;
+	letter-spacing: 0;
+	margin-top: 37px;
+	margin-left: 50px;
+}
+
+
+.list {
+	margin-top: 62px;
+	margin-left: 70px;
+}
+
+.image {
+	width: 29px;
+	height: 29px;
+}
+
+.item {
+	margin-top: 26px;
+}
+
+#one, #two, #three, #four {
+	font-family: .AppleSystemUIFont;
+	font-size: 18px;
+	color: #56565B;
+	letter-spacing: 0;
+}
+
+
+.satisfy{
+	margin-top: 34px;
+	margin-left: 70px;
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #56565B;
+letter-spacing: 0;
+line-height: 28px;
+}
+
+.ready {
+	margin-top: 31px;
+	margin-left: 70px;
+}
+
+.commit {
+    width: 50%;
+    border-bottom: 70px solid #FA5014;
+    border-left: 100px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 30.5em;
+}
+
+#text_within_buttonTwo {
+	  position: absolute;
+    margin-left: 161px;
+    bottom: 30px;
+font-family: Helvetica;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0;
+
+}
+
+#text_within_button{
+	position: absolute;
+    right: 161px;
+    top: 30px;
+    font-family: Helvetica;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 0;
+
+}
+
+  
+
+.dont_commit {
+	 width: 31em;
+    border-top: 70px solid #56565B;
+    border-right: 100px solid transparent;
+    position: absolute;
+    bottom: 0;
+}
+
+
