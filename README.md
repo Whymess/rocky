@@ -27,4 +27,4 @@ Other:
 - ~Portfolio Co Details~
 - ~Equity Firm Info~
 - ~Equity Owner Info~
-- Add Nominator
+- ~Add Nominator~ [Needs styling for drop down]
