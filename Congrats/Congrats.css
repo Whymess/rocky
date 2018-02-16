@@ -1,0 +1,107 @@
+body, html {
+	width: 1781px;
+	height: 1000px;
+	background-color: grey;
+}
+
+
+.container {
+    position: absolute;
+    top: 200px;
+    left: 305px;
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+    width: 1170px;
+    height: 654px;
+}
+
+.progress_bar {
+	height: 80px;
+	width: 100%;
+	position: absolute; 
+	bottom: 0;
+}
+
+
+.submit {
+      width: 10em;
+    height: 0;
+    border-bottom: 80px solid #FA5014;
+    border-left: 100px solid transparent;
+    position: absolute;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    left: 49em;
+}
+
+.text_nodes {
+	font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    position: relative;
+    top: 28px;
+    left: 161px;
+}
+
+
+.status {
+	width: 56em;
+    height: 0;
+    border-top: 80px solid #56565B;
+    border-right: 100px solid transparent;
+
+}
+
+
+
+
+.submit_text {
+margin-top: 28px;
+    position: relative;
+    left: 158px;
+    font-family: .AppleSystemUIFont;
+     font-size: 18px; 
+    color: white;
+    letter-spacing: 0;
+}
+
+
+.now {
+    /* now You are: */
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #56565B;
+    letter-spacing: 0.45px;
+    line-height: 27px;
+    position: relative;
+    text-align: center;
+    top: 116px;
+}
+
+.title_center {
+    /* A Master User of CAP: */
+    font-family: Helvetica;
+    font-size: 42px;
+    color: #56565B;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: relative;
+    text-align: center;
+    top: 183px;
+}
+
+.congrats {
+    /* CONGRATULATIONS!: */
+    font-family: Helvetica;
+    font-size: 42px;
+    color: #56565B;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: absolute;
+    top: 100px;
+    left: 305px;
+}
