@@ -5,20 +5,19 @@ body, html {
 }
 
 .container {
-	position: absolute;
-	left: 305px;
-	margin-top: 148px;
-	background: #FFFFFF;
-	border: 7px solid #FFFFFF;
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
-	width: 1170px;
-	height: 654px;
+    position: absolute;
+    left: 305px;
+    /* margin-top: 148px; */
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+    width: 1170px;
+    height: 654px;
 }
 
 .progress_bar {
 	height: 80px;
 	width: 100%;
-	border: 1px solid red;
 	position: absolute; 
 	bottom: 0;
 }
@@ -41,20 +40,29 @@ input[type="text"]{
 	letter-spacing: 0;
 }
 
-.amount_transcation_greeting {
+#transaction_amount {
+	margin-top: 48px;
 	font-family: Helvetica;
-    font-size: 42px;
-    color: #56565B;
-    letter-spacing: 0;
-    line-height: 52px;
-    left: 305px;
-    position: absolute;
-    top: 117px;
-
+	font-size: 42px;
+	color: #56565B;
+	letter-spacing: 0;
+	line-height: 52px;
+	margin-left: 306px;
 }
 
+#sub_Tran_amount {
+	margin-left: 306px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #56565B;
+	letter-spacing: 0;
+	line-height: 20px;
+	}
+
 .submit {
-	 width: 278px;
+	width: 278px;
     height: 0;
     border-top: 80px solid #FA5014;
     border-left: 100px solid transparent;
@@ -92,6 +100,26 @@ letter-spacing: 0;
     letter-spacing: 0;
 }
 
+.submit {
+	/* Submit: */
+font-family: .AppleSystemUIFont;
+font-size: 18px;
+color: #FFFFFF;
+letter-spacing: 1.2px;
+}
+
+.submit_text {
+	/* Submit: */
+	font-family: .AppleSystemUIFont;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 1.2px;
+	margin-left: 59px; 
+	bottom: 27px;
+	position: absolute;
+}
+
+
 #two {
 	    position: absolute;
     top: 27px;
@@ -110,15 +138,9 @@ letter-spacing: 0;
 }
 
 
-.sub_greeting {
-	font-family: Helvetica;
-    font-size: 20px;
-    color: #56565B;
-    letter-spacing: 0;
-    line-height: 20px;
-    left: 306px;
-    position: absolute;
-    top: 166px;
+
+.nav {
+	width: 1781px;
+	height: 84px;
+	background-color: white;
 }
-
-
