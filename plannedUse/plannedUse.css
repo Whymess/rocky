@@ -1,0 +1,16 @@
+body, html {
+	width: 1781px;
+	height: 1000px;
+	background-color: grey;
+}
+
+.container {
+    position: absolute;
+    top: 200px;
+    left: 305px;
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+    width: 1170px;
+    height: 654px;
+}
