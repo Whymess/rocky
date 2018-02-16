@@ -26,5 +26,5 @@ Other:
 - ~Registration~
 - ~Nomination~
 - ~Portfolio Co Details~
-- Equity Firm Info
-- Equity Owner Info
+- ~Equity Firm Info~
+- ~Equity Owner Info~

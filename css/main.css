@@ -214,6 +214,35 @@ html {
 
 
 
+.column-msg{
+	position: relative;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.lbl.first-name-ip {
+	float: left;
+}
+
+input.first-name-ip {
+	position: relative;
+	float: left;
+	width: 48.5%;
+}
+
+
+.lbl.last-name-ip {
+	left: 52%;
+}
+
+input.last-name-ip {
+	position: relative;
+	float: left;
+	width: 48.5%;
+	margin-left: 3%;
+}
+
+
 .lbl.address-ip {
 	float: left;
 }
@@ -235,6 +264,8 @@ input.zip-ip {
 	width: 26%;
 	margin-left: 6%;
 }
+
+
 
 
 
