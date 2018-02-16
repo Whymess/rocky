@@ -4,6 +4,12 @@ body, html {
 	background-color: grey;
 }
 
+.image {
+    position: absolute;
+    left: 34em;
+    bottom: 18em;
+}
+
 
 .container {
     position: absolute;
