@@ -13,6 +13,8 @@ html {
 	margin: 0 auto;
 }
 
+/* ================== Header ================== */
+
 
 .logo-img {
 	margin-top: 20px;
@@ -22,6 +24,7 @@ html {
 }
 
 .main-greet {
+	position: relative;
 	margin-top: 20px;
 	font-size: 44px;
 	line-height: 52px;
@@ -41,6 +44,10 @@ html {
 }
 
 
+
+
+/* ================== Main Container ================== */
+
 .main-container {
 	position: relative;
 	background: #FFFFFF;
@@ -57,11 +64,33 @@ html {
 }
 
 .main-text {
+	position: relative;
 	padding: 0 70px;
 	color: #56565B;
 	letter-spacing: 0;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
+/* ================== Two columns ================== */
+
+.two-column-zone {
+	margin-top: 20px;
+	width: 100%;
+	background: blue;
+}
+
+.column {
+	position: relative;
+	float:left;
+	width: 50%;
+	display: inline-block;
+	padding: 0 60px;
+}
+
+
+
+/* ================== Button holder ================== */
 
 
 .btn-holder {
@@ -74,8 +103,11 @@ html {
 
 
 .btn-text {
-	font-family: Helvetica;
 	position: absolute;
+	top: 30px;
+	
+	font-family: Helvetica;
+
 	font-size: 18px;
 	color: #FFFFFF;
 	letter-spacing: 0;
@@ -86,4 +118,74 @@ html {
 	text-align: center;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+
+
+.btn-grey {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 80%;
+	left: 0;
+	border-top: 80px solid #56565B;
+	border-right: 120px solid transparent;
+}
+
+.btn-one-fourth {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: 32%;
+	right: 0;
+	border-bottom: 80px solid #FA5014;
+	border-left: 120px solid transparent;
+}
+
+
+/* ================== Input Boxes ================== */
+
+
+.lbl-ip {
+	position: relative;
+	width: 100%;
+	margin-top: 35px;
+	height: 30px;
+
+	text-align: right;
+}
+
+.lbl {
+	position: absolute;
+	top: 5px;
+	left: 0;
+
+	height: 20px;
+	text-align: left;
+	font-size: 14px;
+	color: #89898d;
+
+	z-index: 1;
+	display: inline-block;
+}
+
+
+
+.ip {
+	position: absolute;
+	padding-bottom: 2px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 18px;
+	color:#1c1c1c;
+	border: 0;
+	outline: 0;
+	text-align: right;
+	background: transparent;
+	border-bottom: 1px solid #dad7d5;
+}
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+	/*  direction: lft;*/
 }
