@@ -25,7 +25,7 @@ body, html {
 
 
 .submit {
-      width: 10em;
+      width: 10.6em;
     height: 0;
     border-bottom: 80px solid #FA5014;
     border-left: 100px solid transparent;
@@ -95,7 +95,6 @@ margin-top: 28px;
 }
 
 .congrats {
-    /* CONGRATULATIONS!: */
     font-family: Helvetica;
     font-size: 42px;
     color: #56565B;
