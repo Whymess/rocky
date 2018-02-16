@@ -1,27 +1,82 @@
-body html {
+body, html {
 	width: 1781px;
 	height: 1000px;
+	background-color: grey;
+}
+
+.agree {
 	position: absolute;
-	background: #F1F1F1;
+	margin-left: 112px;
+	margin-top: 25px;
 }
 
-.container{
-	background: #FFFFFF;
-	border: 7px solid #FFFFFF;
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
-	width: 1170px;
-	height: 630px;
-	margin-top: 200px;
-	border: 1px solid red;
+.container {
+    position: absolute;
+    top: 200px;
+    left: 305px;
+    background: #FFFFFF;
+    border: 7px solid #FFFFFF;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+    width: 1170px;
+    height: 654px;
 }
 
-.user_agreement_title {
-	font-family: Helvetica;
-	font-size: 42px;
-	color: #56565B;
+.progress_bar {
+	height: 80px;
+	width: 100%;
+	position: absolute; 
+	bottom: 0;
+}
+
+.title_Agreement {
+	    font-family: Helvetica;
+    font-size: 42px;
+    color: #56565B;
+    letter-spacing: 0;
+    line-height: 52px;
+    position: relative;
+    top: 100px;
+    left: 305px;
+
+
+}
+
+.submit {
+	width: 612px;
+    height: 0;
+    border-top: 80px solid #C9C7C6;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 68%;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    left: 461px;
+}
+
+
+
+.text_nodes {
+	/* Cancel: */
+	font-family: .AppleSystemUIFont;
+	font-size: 18px;
+	color: #FFFFFF;
 	letter-spacing: 0;
-	line-height: 52px;
+	 position: absolute;
+    top: 28px;
+    left: 161px;
 }
+
+
+.status {
+	width: 612px;
+    height: 0;
+    border-bottom: 80px solid #56565B;
+    border-right: 100px solid transparent;
+
+}
+
 
 .text_container {
 	margin-top: 52px;
@@ -34,61 +89,17 @@ body html {
 	line-height: 27px;
 }
 
-.agree {
-	position: absolute;
-	margin-left: 112px;
-	margin-top: 25px;
-}
 
-.progress_bar {
-    height: 54px;
-    width: 100%;
-    top: 9em;
-    position: relative;
-}
-
-.triangle-topRight {
-          width: 50%;
+.submit_text {
+	margin-top: 28px;
+	bottom: 28px;
     position: absolute;
-    left: 0em;
-    border-top: 54px solid #56565B;
-    border-right: 107px solid transparent;
-    bottom: 0;
+    left: 158px;
+	font-family: .AppleSystemUIFont;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 0;
 }
-
-
-.triangle-topleft {
-    width: 50%;
-    position: absolute;
-    left: 30em;
-    border-bottom: 54px solid #C9C7C6;
-    border-left: 100px solid transparent;
-    bottom: 0;
-}
-
-.agree_label {
-    position: relative;
-    margin-left: 159px;
-    font-family: Helvetica;
-    font-size: 18px;
-    color: white;
-    letter-spacing: 0;
-    top: 28px;
-    bottom: 28px;
-    color: white;
-  	}
-
- .cancel_label {
-
-    position: absolute;
-    color: green;
-    margin-left: 161px;
-    bottom: 26px;
-    font-family: Helvetica;
-    font-size: 18px;
-    color: #FFFFFF;
-    letter-spacing: 0;
- }
 
 
 
