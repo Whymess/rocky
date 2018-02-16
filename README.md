@@ -5,7 +5,6 @@ Remaining:
 - Select Company
 - Nomination Confirmation
 - Master User Yes/No
-- Employer Info
 - Employer Info Menu
 - Activities
 - Transaction Type
@@ -28,3 +27,4 @@ Other:
 - ~Equity Firm Info~
 - ~Equity Owner Info~
 - ~Add Nominator~ [Needs styling for drop down]
+- ~Employer Info~
