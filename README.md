@@ -4,7 +4,6 @@ Remaining:
 
 - Select Company
 - Nomination Confirmation
-- Add Nominator
 - Master User Yes/No
 - Employer Info
 - Employer Info Menu
@@ -28,3 +27,4 @@ Other:
 - ~Portfolio Co Details~
 - ~Equity Firm Info~
 - ~Equity Owner Info~
+- Add Nominator
