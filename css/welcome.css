@@ -1,0 +1,82 @@
+.top-msg {
+	padding-top: 22px;
+}
+
+
+.list {
+	margin-top: 22px;
+	padding: 0 60px;
+	width: 100%;
+}
+
+
+.container.item {
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	min-height: 20px;
+}
+
+.image {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	display: inline-block;
+}
+
+.item-text {
+
+	position: relative;
+	top: -10px;
+	line-height: 20px;
+
+	color: #56565B;
+	letter-spacing: 0;
+	font-family: 'Montserrat', sans-serif;
+
+	width: 950px;
+	display: inline-block;
+
+}
+
+.satisfy-msg {
+	margin-top: 34px;
+	line-height: 28px;
+}
+
+.ready-msg {
+	margin-top: 30px;
+}
+
+
+.btn-master, .btn-not-master {
+	position: absolute;
+	height: 100%;
+	width: 56%;
+}
+
+
+.btn-not-master {
+	left: 0;
+	border-top: 80px solid #56565B;
+	border-right: 120px solid transparent;
+}
+
+
+.btn-master {
+	right: 0;
+	border-bottom: 80px solid #FA5014;
+	border-left: 120px solid transparent;
+}
+
+
+
+.btn-not-master > .btn-text {
+	top: -45px;
+	left: 0;
+}
+
+.btn-master > .btn-text {
+	top: 35px;
+	left: 0;
+}

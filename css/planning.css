@@ -1,0 +1,42 @@
+.container {
+	/* Rectangle 19: */
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 630px;
+	top: 200px;
+	position: fixed;
+	left: 320px;
+}
+
+.col {
+	margin-top: 250px;
+}
+
+.right {
+	 margin-left: 168px;
+}
+
+.left {
+	position: relative;
+    left: 11em;
+}
+
+.sub_text {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #56565B;
+	letter-spacing: 0.5px;
+	line-height: 27px;
+	text-align: center;
+}
+
+.greeting {
+
+font-family: Helvetica;
+font-size: 48px;
+color: black;
+letter-spacing: 0;
+line-height: 52px;
+}
