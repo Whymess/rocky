@@ -5,7 +5,7 @@ body, html {
 
 .container {
 	background: #FFFFFF;
-	border: 7px solid #FFFFFF;
+	border: 7px top_row #FFFFFF;
 	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
 	width: 1170px;
 	height: 654px;
@@ -38,8 +38,18 @@ body, html {
     height: 23px;
     border-radius: 50%;
     top: 27px;
-    right: 167px;
+    right: 35em;
 
+}
+
+.Finance_Acquisition{
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #56565B;
+	letter-spacing: 0.6px;
+	left: 56px;
+	margin-top: 62px;
 }
 
 .item {
@@ -64,11 +74,18 @@ body, html {
 }
 
 .top_row {
-	position: absolute;
+	position: relative;
 	top: 62px;
+	border: 1px solid red;
 }
 .text_node_for_item_two, .text_node_for_item_three {
 	position: relative;
 	left: 43px;
 	top: 13px;
+}
+
+.middle_row {
+	border: 1px solid red;
+	width: 100%;
+	position: relative;
 }
