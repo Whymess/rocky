@@ -14,3 +14,37 @@ body, html {
     width: 1170px;
     height: 654px;
 }
+
+.right {
+	    position: absolute;
+    right: 200px;
+    top: 160px;
+  }
+
+.left {
+	 position: absolute;
+    left: 7em;
+    top: 16%;
+}
+
+.devider{
+ background-color: #D8D8D8;
+    height: 417px;
+    width: 1px;
+    position: absolute;
+    left: 37em;
+    top: 5em;
+}
+
+.topgreet {
+position: absolute;
+bottom: 48px;
+left: 305px;
+top: 100px;
+
+font-family: Helvetica;
+font-size: 42px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 52px;"
+}
