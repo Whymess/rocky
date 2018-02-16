@@ -1,0 +1,124 @@
+body, html {
+	width: 1781px;
+	height: 1000px;
+	background-color: grey;
+}
+
+.container {
+	position: absolute;
+	left: 305px;
+	margin-top: 148px;
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 654px;
+}
+
+.progress_bar {
+	height: 80px;
+	width: 100%;
+	border: 1px solid red;
+	position: absolute; 
+	bottom: 0;
+}
+
+.tran_input {
+	width: 675px;
+	height: 70px;
+	position: absolute;
+	left: 276px;
+	top: 188px;
+	border: none;
+	border-bottom: 1px solid #ED522F;
+	outline: none;
+}
+
+input[type="text"]{
+	font-family: .SFNSDisplay;
+	font-size: 30px;
+	color: #56565B;
+	letter-spacing: 0;
+}
+
+.amount_transcation_greeting {
+	font-family: Helvetica;
+    font-size: 42px;
+    color: #56565B;
+    letter-spacing: 0;
+    line-height: 52px;
+    left: 305px;
+    position: absolute;
+    top: 117px;
+
+}
+
+.submit {
+	 width: 278px;
+    height: 0;
+    border-top: 80px solid #FA5014;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 68%;
+}
+
+
+
+.status {
+	width: 50em;
+    height: 0;
+    border-bottom: 80px solid #56565B;
+    border-right: 100px solid transparent;
+}
+
+#one{
+	position: absolute;
+	left: 50px;
+	top: 27px;
+	/* New Transaction: */
+font-family: Helvetica;
+font-size: 18px;
+color: #C9C7C6;
+letter-spacing: 0;
+}
+
+#three {
+    position: absolute;
+    left: 26em;
+    top: 27px;
+    font-family: .AppleSystemUIFont;
+    font-size: 16px;
+    color: #C9C7C6;
+    letter-spacing: 0;
+}
+
+#two {
+	    position: absolute;
+    top: 27px;
+    left: 209px;
+    /* Corporate Acquisitio: */
+font-family: Helvetica;
+font-size: 18px;
+color: #C9C7C6;
+letter-spacing: 0;
+}
+
+.Rectangle{
+    border: 1px solid #B3B0AF;
+    width: 6px;
+    height: 21px;
+}
+
+
+.sub_greeting {
+	font-family: Helvetica;
+    font-size: 20px;
+    color: #56565B;
+    letter-spacing: 0;
+    line-height: 20px;
+    left: 306px;
+    position: absolute;
+    top: 166px;
+}
+
+
