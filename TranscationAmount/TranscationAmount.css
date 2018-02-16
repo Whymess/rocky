@@ -4,10 +4,25 @@ body, html {
 	background-color: grey;
 }
 
+#back_space_one {
+	width: 19px;
+    height: 21px;
+    position: absolute;
+    left: 189px;
+    top: 25px;
+}
+
+#back_space_two {
+    width: 19px;
+    height: 21px;
+    position: absolute;
+    left: 24em;
+    top: 25px;
+}
+
 .container {
     position: absolute;
     left: 305px;
-    /* margin-top: 148px; */
     background: #FFFFFF;
     border: 7px solid #FFFFFF;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
