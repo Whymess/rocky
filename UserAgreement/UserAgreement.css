@@ -91,14 +91,14 @@ body, html {
 
 
 .submit_text {
-	margin-top: 28px;
-	bottom: 28px;
+	    margin-top: 28px;
+    bottom: 30px;
     position: absolute;
     left: 158px;
-	font-family: .AppleSystemUIFont;
-	font-size: 18px;
-	color: #FFFFFF;
-	letter-spacing: 0;
+    font-family: .AppleSystemUIFont;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
 }
 
 
