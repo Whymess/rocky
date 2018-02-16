@@ -186,6 +186,55 @@ html {
 	border-bottom: 1px solid #dad7d5;
 }
 
+
+.ta {
+	position: absolute;
+	padding-bottom: 2px;
+	top: 30px;
+	left: 0;
+	width: 100%;
+
+	height: 128px;
+	max-height: 200px;
+
+	font-size: 18px;
+	color:#1c1c1c;
+	border: 0;
+	outline: 0;
+	text-align: left;
+	background: transparent;
+	border-bottom: 1px solid #dad7d5;
+}
+
+
+
 ::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
 	/*  direction: lft;*/
 }
+
+
+
+.lbl.address-ip {
+	float: left;
+}
+
+input.address-ip {
+	position: relative;
+	float: left;
+	width: 68%;
+}
+
+
+.lbl.zip-ip {
+	left: 75%;
+}
+
+input.zip-ip {
+	position: relative;
+	float: left;
+	width: 26%;
+	margin-left: 6%;
+}
+
+
+
