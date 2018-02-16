@@ -1,0 +1,91 @@
+body, html {
+	width: 1781px;
+	height: 1000px;
+}
+
+.container {
+	background: #FFFFFF;
+	border: 7px top_row #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 654px;
+}
+
+.circle{
+    position: absolute;
+    border: 1px solid #C9C7C6;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: 30px;
+    left: 29px;
+}
+
+.circle_two {
+	    position: absolute;
+    border: 1px solid #C9C7C6;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-left: 14px;
+    margin-top: 12px;
+}
+
+.circle_three {
+	position: absolute;
+    border: 1px solid #C9C7C6;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: 27px;
+    right: 35em;
+
+}
+
+.Finance_Acquisition{
+	position: absolute;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #56565B;
+	letter-spacing: 0.6px;
+	left: 56px;
+	margin-top: 62px;
+}
+
+.item {
+	margin-left: 20px;
+	background: #F7F7F7;
+	border-radius: 100px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #56565B;
+	letter-spacing: 0;
+	line-height: 28px;
+	height: 50px;
+	width: 240px;
+	display: inline-block;
+}
+
+.text_node_for_item_one {
+	position: relative;
+	margin-left: 36px;
+	top: 12px;
+	bottom: 12px;
+}
+
+.top_row {
+	position: relative;
+	top: 62px;
+	border: 1px solid red;
+}
+.text_node_for_item_two, .text_node_for_item_three {
+	position: relative;
+	left: 43px;
+	top: 13px;
+}
+
+.middle_row {
+	border: 1px solid red;
+	width: 100%;
+	position: relative;
+}

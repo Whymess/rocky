@@ -1,0 +1,90 @@
+.main_contianer {
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 564px;
+	position: fixed;
+	top: 200px;
+	left: 305px;
+}
+
+.label {
+	font-family: .AppleSystemUIFont;
+	font-size: 14px;
+	color: #89898D;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.description {
+	    position: absolute;
+    left: 39em;
+    top: 6em;
+    margin-right: 32px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #1C1C1C;
+	letter-spacing: 0.1px;
+	line-height: 25px;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+.underline {
+	background: #FFFFFF;
+	border: 1px solid #DAD7D5;
+	border-radius: 6px;
+	width: 490px;
+}
+
+.row{
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+
+.top {
+	margin-top: 63px;
+}
+
+.progress_bar {
+	position: absolute;
+	bottom: 0;
+	height: 80px;
+	width: 100%;
+}
+
+.greeting {
+	font-family: Helvetica;
+	font-size: 48px;
+	color: black;
+	letter-spacing: 0;
+	line-height: 52px;
+}
+
+.fill_in {
+	width: 84%;
+    height: 0;
+    border-top: 80px solid #56565B;
+    border-right: 100px solid transparent;
+}
+
+.next {
+    width: 25%;
+    height: 0;
+    border-bottom: 80px solid #FA5014;
+    border-left: 100px solid transparent;
+    position: absolute;
+    left: 54em;
+    top: 0em;
+}
+
+.font_for_progress_bar {
+	font-family: .SFNSDisplay;
+	font-size: 20px;
+	color: #C9C7C6;
+	letter-spacing: 0;
+}

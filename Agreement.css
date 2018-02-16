@@ -1,0 +1,91 @@
+.text_container {
+	margin-top: 54px;
+}
+
+.text_container p {
+	margin-left: 69px;
+	margin-right: 91px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #56565B;
+	letter-spacing: -0.2px;
+	line-height: 27px;
+}
+
+
+.outter_container {
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1010px;
+	height: 403px;
+	border: 1px solid blue;
+	width: 1170px;
+	height: 630px;
+	border: 1px solid green;
+	position: fixed;
+	top: 200px;
+	left: 305px;
+}
+
+.agree_and_accept {
+	margin-left: 112px;
+	margin-top: 51px;
+}
+
+.progress_bar {
+	height: 54px;
+	width: 100%;
+	border: 1px solid red;
+	bottom: 0;
+	position: absolute;
+}
+
+.greeting {
+	margin-left: 300px;
+	margin-top: 119px;
+	font-family: Helvetica;
+	font-size: 48px;
+	color: #56565B;
+	letter-spacing: 0;
+	line-height: 52px;
+}
+
+.next {
+	font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    top: 27px;
+    position: relative;
+}
+
+.triangle-topleft {
+    width: 50%;
+    position: absolute;
+    left: 30em;
+    border-bottom: 80px solid red;
+    border-left: 100px solid transparent;
+    bottom: 0;
+}
+
+.triangle-topleft {
+    width: 50%;
+    position: absolute;
+    left: 30em;
+    border-bottom: 80px solid #C9C7C6;
+    border-left: 100px solid transparent;
+    bottom: 0;
+}
+
+.triangle-topRight {
+     width: 50%;
+    position: absolute;
+    left: 0em;
+    border-top: 80px solid #56565B;
+    border-right: 100px solid transparent;
+    bottom: 0;
+}
+
+
+
+

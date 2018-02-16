@@ -1,0 +1,95 @@
+body html {
+	width: 1781px;
+	height: 1000px;
+	position: absolute;
+	background: #F1F1F1;
+}
+
+.container{
+	background: #FFFFFF;
+	border: 7px solid #FFFFFF;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.10);
+	width: 1170px;
+	height: 630px;
+	margin-top: 200px;
+	border: 1px solid red;
+}
+
+.user_agreement_title {
+	font-family: Helvetica;
+	font-size: 42px;
+	color: #56565B;
+	letter-spacing: 0;
+	line-height: 52px;
+}
+
+.text_container {
+	margin-top: 52px;
+	margin-left: 69px;
+	margin-right: 91px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #56565B;
+	letter-spacing: -0.2px;
+	line-height: 27px;
+}
+
+.agree {
+	position: absolute;
+	margin-left: 112px;
+	margin-top: 25px;
+}
+
+.progress_bar {
+    height: 54px;
+    width: 100%;
+    top: 9em;
+    position: relative;
+}
+
+.triangle-topRight {
+          width: 50%;
+    position: absolute;
+    left: 0em;
+    border-top: 54px solid #56565B;
+    border-right: 107px solid transparent;
+    bottom: 0;
+}
+
+
+.triangle-topleft {
+    width: 50%;
+    position: absolute;
+    left: 30em;
+    border-bottom: 54px solid #C9C7C6;
+    border-left: 100px solid transparent;
+    bottom: 0;
+}
+
+.agree_label {
+    position: relative;
+    margin-left: 159px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 0;
+    top: 28px;
+    bottom: 28px;
+    color: white;
+  	}
+
+ .cancel_label {
+
+    position: absolute;
+    color: green;
+    margin-left: 161px;
+    bottom: 26px;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+ }
+
+
+
+
